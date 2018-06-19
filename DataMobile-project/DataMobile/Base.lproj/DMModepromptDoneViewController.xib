@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DMModepromptDoneViewController">
+            <connections>
+                <outlet property="label1" destination="wdV-yk-N4a" id="48x-S4-Wwd"/>
+                <outlet property="label2" destination="jjB-mR-eJx" id="kNF-Eb-3BV"/>
+                <outlet property="plate" destination="m7a-mU-pRk" id="u0d-1x-Fp6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OH-BT-Do9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7a-mU-pRk">
+                            <rect key="frame" x="20" y="144" width="280" height="280"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3a6-3Q-PoW">
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="66"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-yk-N4a">
+                                    <rect key="frame" x="20" y="65.5" width="240" height="70"/>
+                                    <string key="text">Congratulations!
+You've validated all your trips.
+Thanks!</string>
+                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tdf-z4-N3f">
+                                    <rect key="frame" x="0.0" y="135.5" width="280" height="7"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Tdf-z4-N3f" secondAttribute="height" multiplier="320:8" id="0Py-HL-0lV"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjB-mR-eJx">
+                                    <rect key="frame" x="20" y="142.5" width="240" height="96"/>
+                                    <string key="text">You will no longer be prompted to validate trips, but you can continue to participate in the study.
+If you no longer wish to participate, you can uninstall the app.</string>
+                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mpA-qz-eHl">
+                                    <rect key="frame" x="0.0" y="238.5" width="280" height="41.5"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lar-uv-9Do">
+                                    <rect key="frame" x="236" y="0.0" width="43.5" height="44"/>
+                                    <subviews>
+                                        <button opaque="NO" alpha="0.32000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qp-ER-0U4">
+                                            <rect key="frame" x="0.0" y="5" width="38.5" height="38.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="7qp-ER-0U4" secondAttribute="height" multiplier="44:44" id="d7J-I0-aAV"/>
+                                            </constraints>
+                                            <state key="normal" image="general_btn_close.png">
+                                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="touchedBtn:" destination="-1" eventType="touchUpInside" id="YiD-d2-RDI"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="7qp-ER-0U4" firstAttribute="leading" secondItem="Lar-uv-9Do" secondAttribute="leading" id="3Eu-pu-0Ea"/>
+                                        <constraint firstAttribute="width" secondItem="Lar-uv-9Do" secondAttribute="height" multiplier="50:50" id="GjK-lW-Rh6"/>
+                                        <constraint firstAttribute="bottom" secondItem="7qp-ER-0U4" secondAttribute="bottom" id="p8E-WG-ZCn"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Tdf-z4-N3f" firstAttribute="leading" secondItem="m7a-mU-pRk" secondAttribute="leading" id="4fi-3z-iNs"/>
+                                <constraint firstItem="Lar-uv-9Do" firstAttribute="width" secondItem="m7a-mU-pRk" secondAttribute="width" multiplier="50:320" id="4rS-YT-IO0"/>
+                                <constraint firstAttribute="trailing" secondItem="mpA-qz-eHl" secondAttribute="trailing" id="7m8-tM-5XH"/>
+                                <constraint firstAttribute="centerX" secondItem="wdV-yk-N4a" secondAttribute="centerX" id="FdL-UZ-Qpe"/>
+                                <constraint firstItem="mpA-qz-eHl" firstAttribute="leading" secondItem="m7a-mU-pRk" secondAttribute="leading" id="GzG-Sh-5lP"/>
+                                <constraint firstAttribute="trailing" secondItem="Lar-uv-9Do" secondAttribute="trailing" id="HgT-wd-Ncx"/>
+                                <constraint firstItem="3a6-3Q-PoW" firstAttribute="top" secondItem="m7a-mU-pRk" secondAttribute="top" id="K4O-8w-mDQ"/>
+                                <constraint firstItem="wdV-yk-N4a" firstAttribute="width" secondItem="jjB-mR-eJx" secondAttribute="width" id="MKW-Ws-jTY"/>
+                                <constraint firstAttribute="width" secondItem="m7a-mU-pRk" secondAttribute="height" multiplier="280:280" id="T0v-6s-fiI"/>
+                                <constraint firstAttribute="trailing" secondItem="Tdf-z4-N3f" secondAttribute="trailing" id="YKS-QX-KWS"/>
+                                <constraint firstItem="wdV-yk-N4a" firstAttribute="top" secondItem="3a6-3Q-PoW" secondAttribute="bottom" id="YqZ-ih-XhC"/>
+                                <constraint firstAttribute="centerX" secondItem="jjB-mR-eJx" secondAttribute="centerX" id="eMD-Sq-rPS"/>
+                                <constraint firstItem="mpA-qz-eHl" firstAttribute="top" secondItem="jjB-mR-eJx" secondAttribute="bottom" id="eNZ-ha-cI7"/>
+                                <constraint firstAttribute="bottom" secondItem="mpA-qz-eHl" secondAttribute="bottom" id="hY3-FC-BOs"/>
+                                <constraint firstItem="Tdf-z4-N3f" firstAttribute="top" secondItem="wdV-yk-N4a" secondAttribute="bottom" id="ix0-eE-mLM"/>
+                                <constraint firstItem="3a6-3Q-PoW" firstAttribute="height" secondItem="mpA-qz-eHl" secondAttribute="height" multiplier="1.61:1" id="mNS-4w-KQv"/>
+                                <constraint firstItem="7qp-ER-0U4" firstAttribute="width" secondItem="m7a-mU-pRk" secondAttribute="width" multiplier="44:320" id="nxm-ds-cjX"/>
+                                <constraint firstItem="jjB-mR-eJx" firstAttribute="top" secondItem="Tdf-z4-N3f" secondAttribute="bottom" id="o0C-LK-n0j"/>
+                                <constraint firstAttribute="trailing" secondItem="3a6-3Q-PoW" secondAttribute="trailing" id="qC2-AQ-DhM"/>
+                                <constraint firstItem="Lar-uv-9Do" firstAttribute="top" secondItem="m7a-mU-pRk" secondAttribute="top" id="uaB-lj-k2s"/>
+                                <constraint firstItem="3a6-3Q-PoW" firstAttribute="leading" secondItem="m7a-mU-pRk" secondAttribute="leading" id="zGt-qo-6wv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="wdV-yk-N4a" firstAttribute="width" secondItem="7OH-BT-Do9" secondAttribute="width" multiplier="240:320" id="6dq-cg-kmX"/>
+                        <constraint firstItem="m7a-mU-pRk" firstAttribute="width" secondItem="7OH-BT-Do9" secondAttribute="width" multiplier="280:320" id="ViI-Gt-nek"/>
+                        <constraint firstAttribute="centerY" secondItem="m7a-mU-pRk" secondAttribute="centerY" id="XoT-Fh-vCT"/>
+                        <constraint firstAttribute="centerX" secondItem="m7a-mU-pRk" secondAttribute="centerX" id="uwf-Gh-HI8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7OH-BT-Do9" secondAttribute="bottom" id="W7r-0Q-mrh"/>
+                <constraint firstAttribute="trailing" secondItem="7OH-BT-Do9" secondAttribute="trailing" id="ZU0-F9-n3d"/>
+                <constraint firstItem="7OH-BT-Do9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zd8-6L-LiQ"/>
+                <constraint firstItem="7OH-BT-Do9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y1m-kp-MZ1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="169"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="general_btn_close.png" width="176" height="176"/>
+    </resources>
+</document>

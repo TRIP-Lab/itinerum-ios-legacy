@@ -1,0 +1,147 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Custom Date Range"; ObjectID = "2Zw-oL-tYF"; */
+"2Zw-oL-tYF.headerTitle" = "Custom Date Range";
+
+/* Class = "UIButton"; normalTitle = "Get Consent Form"; ObjectID = "2oJ-sR-qEx"; */
+"2oJ-sR-qEx.normalTitle" = "Get Consent Form";
+
+/* Class = "UIButton"; normalTitle = "itinerum@concordia.ca"; ObjectID = "39A-lu-VPB"; */
+"39A-lu-VPB.normalTitle" = "itinerum@concordia.ca";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "3JV-Sa-Gpm"; */
+"3JV-Sa-Gpm.accessibilityLabel" = "Start Date";
+
+/* Class = "UILabel"; text = "End Date"; ObjectID = "52z-3P-5kY"; */
+"52z-3P-5kY.text" = "End Date";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "6Bi-tV-IaP"; */
+"6Bi-tV-IaP.accessibilityLabel" = "End Date";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "6EW-QU-6Xb"; */
+"6EW-QU-6Xb.headerTitle" = " ";
+
+/* Class = "UILabel"; text = "ABOUT"; ObjectID = "8Al-w8-Qx4"; */
+"8Al-w8-Qx4.text" = "ABOUT";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "8U0-9p-SO6"; */
+"8U0-9p-SO6.accessibilityLabel" = "Start Date";
+
+/* Class = "UILabel"; text = "DISPLAYING"; ObjectID = "BBv-p5-kmA"; */
+"BBv-p5-kmA.text" = "DISPLAYING";
+
+/* Class = "UILabel"; text = "July 4, 4:30 PM"; ObjectID = "BKD-Oa-eyv"; */
+"BKD-Oa-eyv.text" = "July 4, 4:30 PM";
+
+/* Class = "UIButton"; normalTitle = "Send Feedback"; ObjectID = "F5O-TI-VNA"; */
+"F5O-TI-VNA.normalTitle" = "Send Feedback";
+
+/* Class = "UILabel"; text = "Location Recording"; ObjectID = "Gpd-8o-zrY"; */
+"Gpd-8o-zrY.text" = "Location Recording";
+
+/* Class = "UILabel"; text = "or write to us a"; ObjectID = "Ibu-Mp-ghL"; */
+"Ibu-Mp-ghL.text" = "or write to us a";
+
+/* Class = "UILabel"; text = "LEGAL DOCUMENTS"; ObjectID = "LCV-gc-NcW"; */
+"LCV-gc-NcW.text" = "LEGAL DOCUMENTS";
+
+/* Class = "UILabel"; text = "Start Date"; ObjectID = "LPU-QZ-7FZ"; */
+"LPU-QZ-7FZ.text" = "Start Date";
+
+/* Class = "UIButton"; normalTitle = "SEND LOGS"; ObjectID = "OF7-mP-AYc"; */
+"OF7-mP-AYc.normalTitle" = "SEND LOGS";
+
+/* Class = "UIButton"; normalTitle = "www.itinerum.ca"; ObjectID = "RQ1-ZN-pzj"; */
+"RQ1-ZN-pzj.normalTitle" = "www.itinerum.ca";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "Rbf-sz-eyz"; */
+"Rbf-sz-eyz.accessibilityLabel" = "End Date";
+
+/* Class = "UIButton"; normalTitle = "Do you want to change survey ?"; ObjectID = "Rhe-zd-48q"; */
+"Rhe-zd-48q.normalTitle" = "Do you want to change survey ?";
+
+/* Class = "UITableViewSection"; headerTitle = "Show Data From"; ObjectID = "UI1-GJ-UGS"; */
+"UI1-GJ-UGS.headerTitle" = "Show Data From";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "VGk-EP-Cnf"; */
+"VGk-EP-Cnf.normalTitle" = "DONE";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "WEt-z2-uYd"; */
+"WEt-z2-uYd.accessibilityLabel" = "End Date";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "WFu-yx-GrC"; */
+"WFu-yx-GrC.headerTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "Wcq-4m-Xjq"; */
+"Wcq-4m-Xjq.normalTitle" = "Today";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Wvf-rI-q4h"; */
+"Wvf-rI-q4h.text" = "0";
+
+/* Class = "UILabel"; text = "All Days"; ObjectID = "XQh-xX-RcF"; */
+"XQh-xX-RcF.text" = "All Days";
+
+/* Class = "UILabel"; text = "of 14"; ObjectID = "Zdr-PL-bnv"; */
+"Zdr-PL-bnv.text" = "of 14";
+
+/* Class = "UILabel"; text = "Survey complete.  Thank you for using\nItinerum™!"; ObjectID = "bbw-XE-Lpw"; */
+"bbw-XE-Lpw.text" = "Survey complete.  Thank you for using\nItinerum™!";
+
+/* Class = "UILabel"; text = "Last Seven Days"; ObjectID = "cdr-0g-hDQ"; */
+"cdr-0g-hDQ.text" = "Last Seven Days";
+
+/* Class = "UILabel"; text = "Recording is paused."; ObjectID = "egz-es-jRk"; */
+"egz-es-jRk.text" = "Recording is paused.";
+
+/* Class = "UILabel"; text = "For more information about Itinerum™, consult our website"; ObjectID = "f8e-av-heW"; */
+"f8e-av-heW.text" = "For more information about Itinerum™, consult our website";
+
+/* Class = "UILabel"; text = "This is an ongoing study. The app will collect your location data for up to the amount of time parametrized by your survey administrator (click on the survey administrator icon on the map screen for more information) if you keep the app running. The purpose of this app is to test and develop methods of better understanding travel behavior through the use of smartphones. Your participation will allow us to develop methods to overtly collect and analyze smartphone data to be used to improve transportation planning techniques."; ObjectID = "iVM-yG-f5o"; */
+"iVM-yG-f5o.text" = "This is an ongoing study. The app will collect your location data for up to the amount of time parametrized by your survey administrator (click on the survey administrator icon on the map screen for more information) if you keep the app running. The purpose of this app is to test and develop methods of better understanding travel behavior through the use of smartphones. Your participation will allow us to develop methods to overtly collect and analyze smartphone data to be used to improve transportation planning techniques.";
+
+/* Class = "UILabel"; text = "TRIPS VALIDATED"; ObjectID = "ie0-FA-sY5"; */
+"ie0-FA-sY5.text" = "TRIPS VALIDATED";
+
+/* Class = "UILabel"; text = "14"; ObjectID = "j6h-0M-IT6"; */
+"j6h-0M-IT6.text" = "14";
+
+/* Class = "UINavigationItem"; title = "Other"; ObjectID = "jU1-QU-kBA"; */
+"jU1-QU-kBA.title" = "Other";
+
+/* Class = "UILabel"; text = "July 4, 4:30 PM"; ObjectID = "l1M-Xh-Pk2"; */
+"l1M-Xh-Pk2.text" = "July 4, 4:30 PM";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "mXJ-f8-1u8"; */
+"mXJ-f8-1u8.normalTitle" = "DONE";
+
+/* Class = "UILabel"; text = "of 25"; ObjectID = "oVJ-4Z-M5e"; */
+"oVJ-4Z-M5e.text" = "of 25";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "oWS-xO-c12"; */
+"oWS-xO-c12.headerTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "qFj-3t-tYV"; */
+"qFj-3t-tYV.text" = "Today";
+
+/* Class = "UILabel"; text = "Yesterday"; ObjectID = "qve-Qg-Viy"; */
+"qve-Qg-Viy.text" = "Yesterday";
+
+/* Class = "UILabel"; text = "POINTS RECORDED"; ObjectID = "qwk-xL-QyJ"; */
+"qwk-xL-QyJ.text" = "POINTS RECORDED";
+
+/* Class = "UILabel"; text = "DAYS REMAINING"; ObjectID = "sFD-1G-9Zj"; */
+"sFD-1G-9Zj.text" = "DAYS REMAINING";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "trh-Nf-NbD"; */
+"trh-Nf-NbD.text" = "0";
+
+/* Class = "UILabel"; text = "SEND FEEDBACK"; ObjectID = "uMG-6r-Mwh"; */
+"uMG-6r-Mwh.text" = "SEND FEEDBACK";
+
+/* Class = "UIButton"; normalTitle = "Powered by Itinerum™"; ObjectID = "uZ7-L9-btl"; */
+"uZ7-L9-btl.normalTitle" = "Powered by Itinerum™";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "v8f-mP-tcd"; */
+"v8f-mP-tcd.accessibilityLabel" = "Start Date";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "zOj-cp-Uui"; */
+"zOj-cp-Uui.accessibilityLabel" = "Start Date";

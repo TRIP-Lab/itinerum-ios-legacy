@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  DataMobile
+    
+  Localized strings of Datamobile
+*/
+
+// OtherViewController.m
+"Feedback for DataMobile" = "Commentaires sur DataMobile";
+"Mail account not setup" = "Votre compte de messagerie n’est pas configuré";
+"You need to setup a mail account to send feedback." = "Vous devez configurer un compte de messagerie afin de nous faire parvenir vos commentaires sur l’application.";
+"DataMobile Consent Form" = "Formulaire de consentement pour DataMobile";
+"Please see attached the DataMobile Consent Form." = "SVP, voir la pièce jointe pour le formulaire de consentement pour DataMobile."
+"You need to setup a mail account to get the consent form." = "Vous devez configurer un compte de messagerie afin d’accéder au formulaire de consentement pour DataMobile.";
+"Access My Data on DataMobile" = "Accéder aux données personnelles sur DataMobile";
+"You need to setup a mail account to send." = "Vous devez configurer un compte de messagerie afin d’envoyer votre message.";
+
+// DMUSLocationViewController.m
+"Work Location" = "Emplacement du travail";
+"Please indicate your approximate\nwork location." = "SVP indiquer l’emplacement approximatif";
+"Study Location" = "Emplacement des études";
+"Please indicate your approximate\nstudy location." = "SVP indiquer l’emplacement approximatif";
+"Home Location" = "Emplacement du domicile";
+"Please indicate your approximate\nhome location." = "SVP indiquer l’emplacement approximatif";
+
+// DMUSTravelViewController.m
+"Travel to Work" = "Déplacement au travail";
+"Travel to Study" = "Déplacement au lieu d’études";
+"How do you typically commute to\nyour work location?" = "Généralement, par quel moyen vous déplacez-vous?";
+"How do you typically commute to\nyour studies?" = "Généralement, par quel moyen vous déplacez-vous?";
+"Do you use any alternative mode of\ntravel to work?" = "Utilisez-vous d’autres moyens de transport?";
+"Do you use any alternative mode of\ntravel to your studies?" = "Utilisez-vous d’autres moyens de transport?";
+
+// LocationMapViewController.m
+"Drag me to a location!" = "Glissez à l’emplacement!";
+"Drag to change location" = "Glissez pour changer l’emplacement";

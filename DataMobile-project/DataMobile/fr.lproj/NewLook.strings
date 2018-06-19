@@ -1,0 +1,128 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Custom Date Range"; ObjectID = "2Zw-oL-tYF"; */
+"2Zw-oL-tYF.headerTitle" = "Sélection personnalisée pour l’affichage des données";
+
+/* Class = "UIButton"; normalTitle = "Get Consent Form"; ObjectID = "2oJ-sR-qEx"; */
+"2oJ-sR-qEx.normalTitle" = "Formulaire de consentement";
+
+/* Class = "UIButton"; normalTitle = "itinerum@concordia.ca"; ObjectID = "39A-lu-VPB"; */
+"39A-lu-VPB.normalTitle" = "itinerum@concordia.ca";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "VGk-EP-Cnf"; */
+"VGk-EP-Cnf.normalTitle"= "Retour";
+
+/* Class = "UILabel"; text = "End Date"; ObjectID = "52z-3P-5kY"; */
+"52z-3P-5kY.text" = "Se terminant le";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "6Bi-tV-IaP"; */
+"6Bi-tV-IaP.accessibilityLabel" = "Se terminant le";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "8Al-w8-Qx4"; */
+"8Al-w8-Qx4.text" = "À PROPOS";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "8U0-9p-SO6"; */
+"8U0-9p-SO6.accessibilityLabel" = "Commençant le";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "AHG-xb-0Fc"; */
+"AHG-xb-0Fc.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "Change Survey"; ObjectID = "Rhe-zd-48q"; */
+"Rhe-zd-48q.normalTitle" = "Changer d'étude";
+
+/* Class = "UILabel"; text = "Displaying"; ObjectID = "BBv-p5-kmA"; */
+"BBv-p5-kmA.text" = "AFFICHER";
+
+/* Class = "UILabel"; text = "July 4, 4:30 PM"; ObjectID = "BKD-Oa-eyv"; */
+"BKD-Oa-eyv.text" = "July 4, 4:30 PM";
+
+/* Class = "UIButton"; normalTitle = "Send Feedback"; ObjectID = "F5O-TI-VNA"; */
+"F5O-TI-VNA.normalTitle" = "Envoyer un commentaire";
+
+/* Class = "UILabel"; text = "Legal Documents"; ObjectID = "LCV-gc-NcW"; */
+"LCV-gc-NcW.text" = "DOCUMENTS LÉGAUX";
+
+/* Class = "UILabel"; text = "Start Date"; ObjectID = "LPU-QZ-7FZ"; */
+"LPU-QZ-7FZ.text" = "Commençant le";
+
+/* Class = "UIButton"; normalTitle = "SEND LOGS"; ObjectID = "OF7-mP-AYc"; */
+"OF7-mP-AYc.normalTitle" = "SEND LOGS";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "Rbf-sz-eyz"; */
+"Rbf-sz-eyz.accessibilityLabel" = "Se terminant le";
+
+/* Class = "UITableViewSection"; headerTitle = "show data from"; ObjectID = "UI1-GJ-UGS"; */
+"UI1-GJ-UGS.headerTitle" = "Afficher les données de";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "End Date"; ObjectID = "WEt-z2-uYd"; */
+"WEt-z2-uYd.accessibilityLabel" = "Se terminant le";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "WFu-yx-GrC"; */
+"WFu-yx-GrC.headerTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "Wcq-4m-Xjq"; */
+"Wcq-4m-Xjq.normalTitle" = "Aujourd’hui";
+
+/* Class = "UILabel"; text = "All Days"; ObjectID = "XQh-xX-RcF"; */
+"XQh-xX-RcF.text" = "Tous les jours";
+
+/* Class = "UILabel"; text = "of 14"; ObjectID = "Zdr-PL-bnv"; */
+"Zdr-PL-bnv.text" = "sur 14";
+
+/* Class = "UILabel"; text = "Survey complete. 
+Thank you for using\nItinerum™!"; ObjectID = "bbw-XE-Lpw"; */
+"bbw-XE-Lpw.text" = "Enquête complétée.
+Merci d’avoir utilisé\nItinerum™!";
+
+/* Class = "UILabel"; text = "Last Seven Days"; ObjectID = "cdr-0g-hDQ"; */
+"cdr-0g-hDQ.text" = "7 derniers jours";
+
+/* Class = "UILabel"; text = "For more information about Itinerum™, consult our website"; ObjectID = "f8e-av-heW"; */
+"f8e-av-heW.text" = "Pour plus d’information sur Itinerum™, consultez notre site web";
+
+/* Class = "UILabel"; text = "This is an ongoing study. The app will collect your location data for as long  (up to two weeks) as you keep the app running. The purpose of this app is to test and develop methods of better understanding travel behavior through the use of smartphones. Your participation will allow us to develop methods to overtly collect and analyze smartphone data to be used to improve transportation planning techniques."; ObjectID = "iVM-yG-f5o"; */
+"iVM-yG-f5o.text" = "En utilisant Itinerum™, vous êtes au cœur d’un projet de recherche en cours! En laissant l’application fonctionner sur votre téléphone, vous partagez vos données de déplacement pour une période pouvant aller jusqu’au nombre de jours paramétrisé par l'administrateur de votre enquête. L’application permet de développer et tester différentes méthodes permettant de mieux comprendre les habitudes de déplacement des gens à l’aide de leur téléphone intelligent. Votre participation appuie ultimement l’optimisation de la planification du transport urbain.";
+
+/* Class = "UILabel"; text = "Trips Validated"; ObjectID = "ie0-FA-sY5"; */
+"ie0-FA-sY5.text" = "DÉPL VALIDÉS";
+
+/* Class = "UILabel"; text = "14"; ObjectID = "j6h-0M-IT6"; */
+"j6h-0M-IT6.text" = "14";
+
+/* Class = "UINavigationItem"; title = "Other"; ObjectID = "jU1-QU-kBA"; */
+"jU1-QU-kBA.title" = "Autre";
+
+/* Class = "UILabel"; text = "July 4, 4:30 PM"; ObjectID = "l1M-Xh-Pk2"; */
+"l1M-Xh-Pk2.text" = "July 4, 4:30 PM";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "mXJ-f8-1u8"; */
+"mXJ-f8-1u8.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "qFj-3t-tYV"; */
+"qFj-3t-tYV.text" = "Aujourd’hui";
+
+/* Class = "UILabel"; text = "Yesterday"; ObjectID = "qve-Qg-Viy"; */
+"qve-Qg-Viy.text" = "Hier";
+
+/* Class = "UILabel"; text = "Days Remaining"; ObjectID = "sFD-1G-9Zj"; */
+"sFD-1G-9Zj.text" = "JOURS RESTANTS";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "trh-Nf-NbD"; */
+"trh-Nf-NbD.text" = "0";
+
+/* Class = "UILabel"; text = "Send Feedback"; ObjectID = "uMG-6r-Mwh"; */
+"uMG-6r-Mwh.text" = "ENVOYER UN COMMENTAIRE";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "v8f-mP-tcd"; */
+"v8f-mP-tcd.accessibilityLabel" = "Commençant le";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Start Date"; ObjectID = "zOj-cp-Uui"; */
+"zOj-cp-Uui.accessibilityLabel" = "Commençant le";
+
+// new
+"oVJ-4Z-M5e.text" = "sur 25";
+"qwk-xL-QyJ.text" = "POINTS ENREGISTRÉS";
+"egz-es-jRk.text" = "L'enregistrement\nde vos déplacements\nest en pause.";
+"Ibu-Mp-ghL.text" = "ou écrivez-nous :";
+"oWS-xO-c12.headerTitle" = "Réglages";
+"Gpd-8o-zrY.text" = "Enregistrement de localisation";
+"Rhe-zd-48q.normalTitle" = "Changer d'étude";

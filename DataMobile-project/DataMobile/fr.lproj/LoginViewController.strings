@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Please input\nthe survey name."; ObjectID = "QNV-Ud-Uwe"; */
+"QNV-Ud-Uwe.text" = "Écran de saisie\npour le sondage.";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "4vp-et-Ohe"; */
+"4vp-et-Ohe.normalTitle" = "ENVOYER";
+
+/* Class = "UITextField"; placeholder = "Survey Name"; ObjectID = "oqo-u4-rd5"; */
+"oqo-u4-rd5.placeholder" = "Nom du sondage";

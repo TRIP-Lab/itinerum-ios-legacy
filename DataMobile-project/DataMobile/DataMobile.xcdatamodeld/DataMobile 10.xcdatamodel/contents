@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="2" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6220.17" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Data" representedClassName="Data" syncable="YES">
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="z" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="altitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="h_accuracy" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pointType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="v_accuracy" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="age_bracket" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campus_commute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="has_completed_survey" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="has_shared_app" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lives_with" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="member_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_of_cars" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_of_minors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_of_people_living" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postal_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="travel_mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="travel_mode_alt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="travel_mode_frequency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_docs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="works_at_concordia" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Data" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Location" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="User" positionX="0" positionY="0" width="128" height="315"/>
+    </elements>
+</model>

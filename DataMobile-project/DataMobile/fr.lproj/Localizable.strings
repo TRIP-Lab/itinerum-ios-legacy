@@ -1,0 +1,120 @@
+/* 
+  Localizable.strings
+  DataMobile
+    
+  Localized strings of Datamobile
+*/
+
+
+"Yes" = "Oui";
+"No" = "Non";
+"Done" = "OK";
+"OK" = "OK";
+"Cancel" = "Annuler";
+"Settings" = "Réglages";
+"Open" = "Ouvrir";
+"Change Survey" = "Changer d'étude.";
+
+
+// DMMainViewController.m
+"For Itinerum™ to function properly, please allow it to “Always” access your location in Settings. If it is greyed out, please check “Settings.app > Privacy > Location Services." = "Pour pouvoir enregistrer vos déplacements correctement, Itinerum™ doit monitorer votre localisation «Toujours» dans « Réglages ». Si l’option est grisée, merci de le choisir dans «Réglages > Confidentialité > Service de localization».";
+"Access to Location Not Authorized" = "Accès non autorisé à la localisation";
+"For Itinerum™ to function, please allow Background App Refresh in Settings. If it is greyed out, please check “Settings.app > General > Background App Refresh." = "Pour permettre à Itinerum™ de fonctionner, merci d’autoriser « Actualiser en arrière-plan ». Si l’option est grisée, merci de l’autoriser dans «Réglages > Général > Actualiser en arrière-plan».";
+"Background App Refresh" = "Actualiser en arrière-plan";
+
+"Today" = "Aujourd’hui";
+"Yesterday" = "Hier";
+"Last Seven Days" = "7 derniers jours";
+"All Days" = "Tous les jours";
+
+"of" = "sur";
+
+"Pause Recording" = "Mettre l’enregistrement en pause";  // recording
+"Would you like to pause the recording of locations?" = "Voulez-vous mettre l’enregistrement de vos déplacements en pause?";
+"Start Recording" = "Commencer l’enregistrement";
+"Would you like to start the recording of locations?" = "Voulez-vous commencer à enregistrer vos déplacements?";
+
+"You are about to change surveys. All local data for the current survey will be deleted. Are you sure you want to continue?" = "Vous êtes sur le point de quitter l'étude en cours. Toutes les données locales pour l'étude actuelle seront supprimées. Êtes-vous certain de vouloir quitter ?";
+
+
+// OtherViewController.m
+"Feedback for Itinerum™" = "Commentaires sur Itinerum™";
+"Mail account not setup" = "Votre compte de messagerie n’est pas configuré";
+"You need to setup a mail account to send feedback." = "Vous devez configurer un compte de messagerie afin de nous faire parvenir vos commentaires sur l’application.";
+"Itinerum™ Consent Form" = "Formulaire de consentement pour Itinerum™";
+"Please see attached the Itinerum™ Consent Form." = "SVP, voir la pièce jointe pour le formulaire de consentement pour Itinerum™.";
+"You need to setup a mail account to get the consent form." = "Vous devez configurer un compte de messagerie afin d’accéder au formulaire de consentement pour Itinerum™.";
+"Access My Data on Itinerum™" = "Accéder aux données personnelles sur Itinerum™";
+"You need to setup a mail account to send." = "Vous devez configurer un compte de messagerie afin d’envoyer votre message.";
+"Consent_Form" = "Consent_Form_fr";
+"Consent_Form.pdf" = "Consent_Form_fr.pdf";
+
+// DMUserSurveyForm.m
+"Sex" = "Genre";
+"Male" = "Homme";
+"Female" = "Femme";
+"Other/Neither" = "Autre/Aucune de ces réponses";
+"Age bracket" = "Tranche d’âge";
+"16 to 24" = "16 - 24";
+"25 to 34" = "25 - 34";
+"35 to 44" = "35 - 44";
+"45 to 54" = "45 - 54";
+"55 to 64" = "55 - 64";
+"65 or older" = "65 ou plus";
+"Do you have a driver's license and/or\na monthly transit pass?" = "Possédez-vous un permis de conduire ou un\ntitre de transport en commun mensuel?";
+"Driver's License" = "Permis de conduire";
+"Monthly Transit Pass" = "Titre de transport en commun mensuel";
+"Who do you live with?" = "Avec qui vivez-vous?";
+"With my parents" = "Mes parents";
+"By myself" = "Seul";
+"With roommates" = "Avec des colocataires";
+"With my family" = "Avec un conjoint";
+"How many people live in your home?" = "Combien de personnes\ndemeurent à votre adresse?";
+"How many are under 16?" = "Combien sont âgés de moins de 16 ans?";
+"How many cars are in your home?" = "Combien de voitures possèdent l’ensemble des personnes\ndemeurant à votre adresse?";
+"Email" = "Courriel";
+
+// DMUSLocationViewController.m
+"Work Location" = "Lieu de travail";
+"Please indicate your approximate\nwork location." = "Veuillez indiquer votre\nlieu de travail.";
+"Study Location" = "Lieu d’études";
+"Please indicate your approximate\nstudy location." = "Veuillez indiquer votre\nlieu d’études.";
+"Home Location" = "Lieu de résidence";
+"Please indicate your approximate\nhome location." = "Veuillez indiquer votre\nlieu de résidence.";
+"Enter an address or touch the map" = "Entrez une adresse ou appuyez sur l'écran";
+
+// DMUSTravelViewController.m
+"Travel to Work" = "Déplacement vers votre lieu de travail";
+"Travel to Study" = "Déplacement vers votre lieu d’études";
+"How do you typically commute to\nyour work location?" = "Quel moyen de transport utilisez-vous habituellement pour vous rendre au travail?";
+"How do you typically commute to\nyour studies?" = "Quel moyen de transport utilisez-vous habituellement pour vous rendre à votre lieu d’études?";
+"Do you use any alternative mode of\ntravel to work?" = "Utilisez-vous parfois un autre mode de transport pour vous rendre au travail?";
+"Do you use any alternative mode of\ntravel to your studies?" = "Utilisez-vous parfois un autre mode de transport pour vous rendre à votre lieu d’études?";
+
+// DMModeperomptManager.m
+"You seem to have stopped." = "Vous semblez être arrêté.";
+"Have you reached a destination?" = "Êtes-vous arrivé à destination?";
+"Cancel/Not at Destination" = "Annuler / ce n’est pas une destination";
+"You seem to have stopped.\nHave you reached a destination?" = "Vous semblez être arrêté.\nÊtes-vous arrivé à destination?";
+
+// LoginViewController.m
+"Survey Name Is Incorrect" = "Le nom de l'enquête n'est pas juste";
+"Please input correct survey name." = "Saisissez SVP le nom d'enquête juste.";
+"Failed Connecting to Server" = "Echec de connection avec le serveur";
+"Please try it later." = "Veuillez essayer plus tard.";
+"Internet Connection Is Lost" = "La connection internet est perdue";
+"Please connect to internet." = "";
+
+// DMCustomSurveyRootViewController.m
+"SUBMIT" = "ENVOYER";
+
+// DMSurveyAboutViewController.m
+"ABOUT SURVEY" = "À PROPOS DE CE SONDAGE";
+"CONSENT AGREEMENT" = "FORMULAIRE DE CONSENTEMENT";
+"I UNDERSTAND" = "J’ACCEPTE";
+
+// DMMMRootViewController.m
+"CANCEL" = "ANNULER";
+"BACK" = "RETOUR";
+"NEXT" = "SUIVANTE";
+

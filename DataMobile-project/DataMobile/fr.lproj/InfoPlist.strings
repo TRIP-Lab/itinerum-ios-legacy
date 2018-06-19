@@ -1,0 +1,20 @@
+/* 
+  InfoPlist.strings
+  DataMobile
+
+  Created by Takeshi MUKAI on 7/13/16.
+  Copyright (c) 2016 MML-Concordia. All rights reserved.
+*/
+
+
+NSLocationAlwaysUsageDescription = "Pour pouvoir enregistrer vos déplacements correctement, Itinerum™ doit monitorer votre localisation pendant toute la journée.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Pour pouvoir enregistrer vos déplacements correctement, Itinerum™ doit monitorer votre localisation pendant toute la journée.";
+NSLocationWhenInUseUsageDescription = "Pour pouvoir enregistrer vos déplacements correctement, Itinerum™ doit monitorer votre localisation pendant toute la journée.";
+NSMotionUsageDescription = "Itinerum™ enregistre votre localisation pendant toute la journée.";
+NSCalendarsUsageDescription = "Itinerum™ requis pour accéder au calendrier pour définir les événements.";
+NSRemindersUsageDescription = "Itinerum™ nécessite d'accéder à des rappels pour définir un rappel";
+NSCameraUsageDescription = "Itinerum™ nécessite d'accéder à votre caméra pour obtenir des images";
+NSMicrophoneUsageDescription = "Itinerum™ nécessite d'accéder à votre microphone pour enregistrer de la vidéo avec votre son";
+NSPhotoLibraryUsageDescription = "Itinerum™ nécessite d'accéder à votre photothèque pour obtenir des images";
+NSContactsUsageDescription = "Itinerum™ nécessite des contacts pour accéder aux contacts du téléphone";
+

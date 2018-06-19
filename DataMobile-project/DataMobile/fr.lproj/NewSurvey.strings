@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Yes, On foot"; ObjectID = "17B-g4-9dU"; */
+"17B-g4-9dU.text" = "Oui, à pied";
+
+/* Class = "UILabel"; text = "At home"; ObjectID = "2xu-is-nWQ"; */
+"2xu-is-nWQ.text" = "À la maison";
+
+/* Class = "UIButton"; normalTitle = "I ACCEPT THESE CONDITIONS\n(mandatory to participate in the study)"; ObjectID = "3c4-Hl-QnI"; */
+"3c4-Hl-QnI.normalTitle" = "J’ACCEPTE CES CONDITIONS\n(obligatoire pour participer à l’étude)";
+
+/* Class = "UILabel"; text = "A student"; ObjectID = "4Ng-hB-X4j"; */
+"4Ng-hB-X4j.text" = "Étudiant";
+
+/* Class = "UILabel"; text = "A full time worker"; ObjectID = "4Q7-fP-eBb"; */
+"4Q7-fP-eBb.text" = "Travailleur à temps plein";
+
+/* Class = "UILabel"; text = "You are invited to closely read the following information before deciding whether or not to participate in a transportation study conducted on the Itinerum™ platform. Take as much time as you need and consult other people if necessary.\n\nItinerum™ is an application developed as part of a research project between Concordia University and the survey administrator. Its use is governed by Concordia University’s ethics guidelines."; ObjectID = "4b6-H0-AmB"; */
+"4b6-H0-AmB.text" = "Nous vous invitons à lire attentivement les renseignements ci-dessous avant de participer ou non à cette étude de transport menée sur la plateforme Itinerum™. Prenez le temps nécessaire pour lire les renseignements et parlez à d’autres personnes, au besoin.\n\nItinerum™ est une application mobile développée dans le cadre d’un projet de recherche mené par l’Université Concordia et l’administrateur de l’enquête. Son utilisation est assujettie aux règles d’éthique de l’Université Concordia.";
+
+/* Class = "UILabel"; text = "Yes, Bicycle"; ObjectID = "5ew-0H-ejM"; */
+"5ew-0H-ejM.text" = "Oui, vélo";
+
+/* Class = "UILabel"; text = "Thank you for downloading Itinerum™. Your participation is appreciated."; ObjectID = "5f6-bj-4XK"; */
+"5f6-bj-4XK.text" = "Merci d’avoir téléchargé Itinerum™. Votre participation est grandement appréciée.";
+
+/* Class = "UILabel"; text = "A part-time worker"; ObjectID = "8MD-Sx-Yxg"; */
+"8MD-Sx-Yxg.text" = "Travailleur à temps partiel";
+
+/* Class = "UINavigationItem"; title = "Occupation"; ObjectID = "9kY-hx-bbB"; */
+"9kY-hx-bbB.title" = "Profession";
+
+/* Class = "UILabel"; text = "Bicycle"; ObjectID = "A3C-EE-pK9"; */
+"A3C-EE-pK9.text" = "Vélo";
+
+/* Class = "UINavigationItem"; title = "Location"; ObjectID = "D6T-L4-ySc"; */
+"D6T-L4-ySc.title" = "Emplacement";
+
+/* Class = "UILabel"; text = "Other Modes"; ObjectID = "HHK-nc-XDI"; */
+"HHK-nc-XDI.text" = "Autre mode unique";
+
+/* Class = "UILabel"; text = "On foot"; ObjectID = "HgP-g9-pip"; */
+"HgP-g9-pip.text" = "À pied";
+
+/* Class = "UILabel"; text = "Retired"; ObjectID = "KOw-iH-gj9"; */
+"KOw-iH-gj9.text" = "Retraité";
+
+/* Class = "UITableViewSection"; headerTitle = "You are…"; ObjectID = "LHh-DJ-eUe"; */
+"LHh-DJ-eUe.headerTitle" = "Vous êtes…";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "MlA-FX-1Ar"; */
+"MlA-FX-1Ar.headerTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "PIN-cX-sUw"; */
+"PIN-cX-sUw.normalTitle" = "SUIVANTE";
+
+/* Class = "UITableViewSection"; headerTitle = "How do you typically commute to\nyour location?"; ObjectID = "SJy-W5-KSX"; */
+"SJy-W5-KSX.headerTitle" = "Généralement, par quel moyen vous déplacez-vous?";
+
+/* Class = "UILabel"; text = "No"; ObjectID = "SVV-OZ-VPt"; */
+"SVV-OZ-VPt.text" = "Non";
+
+/* Class = "UILabel"; text = "Public Transportation (PT)"; ObjectID = "SVv-K2-O9C"; */
+"SVv-K2-O9C.text" = "Transport collectif (TC)";
+
+/* Class = "UILabel"; text = "Car + PT"; ObjectID = "UNw-GD-xSi"; */
+"UNw-GD-xSi.text" = "Voiture + TC";
+
+/* Class = "UINavigationItem"; title = "Demographics"; ObjectID = "UQv-Xk-1AY"; */
+"UQv-Xk-1AY.title" = "Tranche démographique";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "XbM-Fl-d5c"; */
+"XbM-Fl-d5c.normalTitle" = "SUIVANTE";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "Y7n-p2-Vfj"; */
+"Y7n-p2-Vfj.headerTitle" = " ";
+
+/* Class = "UINavigationItem"; title = "Travel"; ObjectID = "bZe-td-AAp"; */
+"bZe-td-AAp.title" = "Déplacement";
+
+/* Class = "UILabel"; text = "PARTICIPATION CONSENT FORM"; ObjectID = "cfy-TL-fFK"; */
+"cfy-TL-fFK.text" = "FORMULAIRE DE CONSENTEMENT";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "dUa-Mz-CEl"; */
+"dUa-Mz-CEl.normalTitle" = "COMMENCER";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "fEy-iu-tv8"; */
+"fEy-iu-tv8.normalTitle" = "SUIVANTE";
+
+/* Class = "UILabel"; text = "A. PURPOSE\nThe purpose of this research project is to collect and analyze travel behaviour data with smart phones and similar devices. The survey administrator and researchers at Concordia University will use travel behavioural data (origin and destination of trips, number of trips, transportation modes, etc.) to better understand behaviour. Reports showing anonymous, aggregate data will be used in conferences, publications or on the Internet.\n\nB. PROCEDURES\n• Participation in this survey will be done through my smartphone.\n• I will be asked a few questions regarding socio-demographic information about me and my household.\n• The duration of the survey will vary but you can cancel your participation at any time.\n• During my participation in the survey, locational information will be collected automatically and then transmitted and recorded securely on servers hosted in Canada and administered by Professor Zachary Patterson of Concordia University.\n• Should the survey administrator offer a draw for prizes, the terms of this draw will be spelled out within the survey information page of the app.\n• Raw data collected as part of this survey will only be used in line with the purpose of this project. Raw data will only be available to researchers of the survey administrator and in Zachary Patterson’s TRIP Laboratory, subject to the Act respecting Access to documents held by public bodies and the Protection of personal information (chapter A-2.1) in the Province of Québec, Canada.\n• The privacy of data collected will be respected and the information that could reveal the identity of participants, directly or indirectly, will not be disseminated.\n\nC. RISKS\nParticipation in this survey represents no known or foreseeable risk to me.\n\nD. BENEFITS\nTransportation behavioural data (trips origins and destinations, number of trips, transport modes, etc.) will allow the estimation of transportation demand and planning of the transportation system, representing thus a possible benefit to society.\nIn addition, the survey administrator may offer participants a draw for prizes. Please verify the survey information page in the app for further details.\n\nE. CONDITIONS OF PARTICIPATION\n• I understand that I must be 18 years of age or older to participate in this study.\n• I understand that my participation is entirely voluntary and that I am free to withdraw my consent and discontinue my participation at any time (by deleting the Itinerum™ app) without negative consequences.\n• I understand that should I withdraw from the study, any data collected up until my withdrawal will remain as part of the survey database with the survey administrator and Concordia University.\n• I understand that my participation in this study is anonymous (i.e., researchers will not know my identity)\n• I understand that the results from analysis of this data may be published, but will not be presented in such a way that my identity could be revealed.\n\nF. DECLARATION OF CONSENT\nBy pressing the button below, I confirm that I have attentively read and understood the above consent and the information presented, and I attest to the fact that my consent is informed, that all of my questions have been answered to my satisfaction and that I have had sufficient time to decide whether I want to participate in this study. I freely and voluntarily consent to participate in this study.\n\nIf at any time you have questions or comments about the proposed research or this study, please send an email to: itinerum@concordia.ca"; ObjectID = "fKp-QG-2b2"; */
+"fKp-QG-2b2.text" = "A. BUT\nLe but de ce projet de recherche est de recueillir et d’analyser des données sur les comportements liés au déplacement d’usagers de la route à l’aide de leur téléphone intelligent. L’administrateur de l’enquête et les chercheurs à l’Université Concordia utiliseront les données recueillies (départ, destination, nombre de déplacements, modes de transport, etc.) afin de mieux comprendre les comportements en transport Des rapports exposant des données anonymes et agrégées seront présentées lors de conférences, au sein de publications et dans Internet.\n\nB. PROCÉDURE\n• La participation à cette étude se déroulera grâce à l’utilisation de mon téléphone intelligent.\n• On me posera quelques questions et je devrai fournir des informations sociodémographiques sur moi et sur mon ménage.\n• La durée du projet de recherche peut varier mais je peux annuler ma participation à tout moment.\n• Au cours de l’étude, des informations sur les déplacements des participants seront automatiquement recueillies, puis transmises et enregistrées, de façon sécuritaire, sur des serveurs hébergés au Canada et gérés par le professeur Zachary Patterson de l’Université Concordia.\n• Si l’administrateur du sondage offre un tirage de prix, les modalités seront expliquées sur la page d’information du sondage dans l’application.\n• Les données brutes sur les déplacements et les données sociodémographiques recueillies ne seront utilisées qu’aux fins de ce projet et seront accessibles uniquement aux chercheurs de l’administrateur du sondage et du laboratoire TRIP de Zachary Patterson, sous réserve de la Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels (RLRQ, c. A-2.1) du Québec au Canada.\n • La confidentialité des données recueillies sera respectée et les renseignements qui pourraient révéler l’identité des participants, directement ou indirectement, ne seront pas diffusés.\n\nC. RISQUE\nLa participation à cette étude n’est associée à aucun risque connu ou prévisible pour moi.\n\nD. AVANTAGES\nLes données qui seront recueillies sur les comportements liés au déplacement (départ, destination, nombre de déplacements, modes de transport, etc.) permettront de mieux prédire la demande de mobilité et mieux planifier le développement du réseau de transport en fonction des besoins des usagers et pour le mieux-être de la collectivité.\nDe plus, l’administrateur du sondage peut offrir aux participants un tirage de prix. Veuillez vérifier la page d’information de ce sondage dans l’application pour connaître les modalités de participation.\n\nLa société Apple n’est en aucune façon impliquée dans les tirages de prix éventuels.\n\nE. CONDITIONS DE PARTICIPATION\n• Je comprends que je dois avoir 18 ans ou plus pour participer à cette étude.\n• Je comprends que ma participation est volontaire et que je suis libre d’arrêter de participer à cette étude à tout moment en supprimant l’application Itinerum™ de mon téléphone, sans aucune conséquence négative pour moi.\n• Je comprends que si je cesse de participer à cette étude, les données préalablement recueillies seront conservées dans la base de données de l’administrateur du sondage et de l’Université Concordia à des fins de recherche.\n• Je comprends que ma participation à cette étude est anonyme, c’est-à-dire que les chercheurs ne pourront, en aucun cas, connaitre mon identité, directement ou indirectement.\n• Je comprends que les résultats de l’analyse des dites données pourraient être publiés, mais qu’ils seront présentés de façon à protéger mon identité, directement ou indirectement.\n\nF. DÉCLARATION DE CONSENTEMENT\nEn appuyant sur le bouton ci-dessous, je confirme que j’ai lu attentivement et que j’ai compris le formulaire de consentement ci-dessus de même que les renseignements qui y sont présentés. J’atteste que mon consentement est éclairé, que j’ai obtenu des réponses satisfaisantes à toutes mes questions et que j’ai eu le temps nécessaire pour décider si je souhaite participer ou non à cette étude. Je souhaite librement et volontairement participer à cette étude.\n\nÀ tout moment, si vous avez des questions ou commentaires concernant le projet de recherche ou cette étude, vous pouvez envoyer un courriel à l’adresse itinerum@concordia.ca";
+
+/* Class = "UILabel"; text = "A student and worker"; ObjectID = "fPs-dy-IGQ"; */
+"fPs-dy-IGQ.text" = "Étudiant et travailleur";
+
+/* Class = "UILabel"; text = "Car"; ObjectID = "gU4-WP-Jg7"; */
+"gU4-WP-Jg7.text" = "Voiture";
+
+/* Class = "UILabel"; text = "To help our research, please answer the following questions."; ObjectID = "mEX-gy-1nD"; */
+"mEX-gy-1nD.text" = "Afin de faciliter l’analyse de vos données, SVP répondez aux questions suivantes.";
+
+/* Class = "UILabel"; text = "Yes, Car + PT"; ObjectID = "oyz-nB-OaE"; */
+"oyz-nB-OaE.text" = "Oui, voiture + TC";
+
+/* Class = "UILabel"; text = "Please indicate your approximate\nlocation."; ObjectID = "pEi-9N-Hoa"; */
+"pEi-9N-Hoa.text" = "SVP indiquer l’emplacement\napproximatif.";
+
+/* Class = "UILabel"; text = "Yes, Car"; ObjectID = "pW2-kH-Ynd"; */
+"pW2-kH-Ynd.text" = "Oui, voiture";
+
+/* Class = "UITableViewSection"; headerTitle = "Do you use any alternative mode of\ntravel to? "; ObjectID = "vAC-t8-e5i"; */
+"vAC-t8-e5i.headerTitle" = "Utilisez-vous d’autres moyens de transport?";
+
+/* Class = "UILabel"; text = "Yes, Public Transportation (PT)"; ObjectID = "yJ0-M2-cSR"; */
+"yJ0-M2-cSR.text" = "Oui, transport collectif (TC)";
+
+/* Class = "UILabel"; text = "Other Combinations"; ObjectID = "xJN-iK-rgt"; */
+"xJN-iK-rgt.text" = "Autre combinaison";
+
+/* Class = "UILabel"; text = "Yes, Other Modes"; ObjectID = "1de-JX-OVh"; */
+"1de-JX-OVh.text" = "Oui, autre mode unique";
+
+/* Class = "UILabel"; text = "Yes, Other Combinations"; ObjectID = "5qQ-wy-bgY"; */
+"5qQ-wy-bgY.text" = "Oui, autre combinaison";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "vfJ-LY-YE5"; */
+"vfJ-LY-YE5.normalTitle" = "SUIVANTE";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Ipt-IF-yhB"; */
+"Ipt-IF-yhB.normalTitle" = "SUIVANTE";

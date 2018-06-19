@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "You will no longer be prompted to validate trips but can participate for up to 30 days.\nIf you no longer wish to participate, you can uninstall the app."; ObjectID = "jjB-mR-eJx"; */
+"jjB-mR-eJx.text" = "Vous ne recevrez plus d'alertes mais vous pourrez continuer à participer dans.\nSi vous ne voulez plus participer, vous pouvez simplement désinstaller l'application.";
+
+/* Class = "UILabel"; text = "Congratulations!\nYou've validated 25 trips and have qualified to be entered into the draw.\nThanks!"; ObjectID = "wdV-yk-N4a"; */
+"wdV-yk-N4a.text" = "Félicitations!\nVous avez validé tous vos déplacements.\nMerci!";

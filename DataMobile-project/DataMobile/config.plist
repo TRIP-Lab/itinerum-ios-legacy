@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>insertLocationUrl</key>
+	<string>http://0.0.0.0/insertGps</string>
+	<key>connexionTimeoutSeconds</key>
+	<integer>10</integer>
+	<key>dmapiURLCreate</key>
+	<string>https://itinerum.api.host/create</string>
+	<key>dmapiURLUpdate</key>
+	<string>https://itinerum.api.host/update</string>
+	<key>dmapiSurveyFieldsByID</key>
+	<dict>
+		<key>1</key>
+		<string>choice</string>
+		<key>2</key>
+		<string>choices</string>
+		<key>3</key>
+		<string>number</string>
+		<key>4</key>
+		<string>location</string>
+		<key>5</key>
+		<string>text_box</string>
+		<key>98</key>
+		<string>text_description</string>
+		<key>99</key>
+		<string>page_break</string>
+		<key>100</key>
+		<string>choice</string>
+		<key>101</key>
+		<string>choice</string>
+		<key>102</key>
+		<string>choice</string>
+		<key>103</key>
+		<string>email</string>
+		<key>104</key>
+		<string>choice_memberType</string>
+		<key>105</key>
+		<string>location</string>
+		<key>106</key>
+		<string>location</string>
+		<key>107</key>
+		<string>location</string>
+		<key>108</key>
+		<string>choice</string>
+		<key>109</key>
+		<string>choice</string>
+		<key>110</key>
+		<string>choice</string>
+		<key>111</key>
+		<string>choice</string>
+	</dict>
+	<key>dmapiPrompts</key>
+	<array>
+		<dict>
+			<key>choices</key>
+			<array>
+				<string>On foot</string>
+				<string>Bicycle</string>
+				<string>Public Transportation (PT)</string>
+				<string>Car</string>
+				<string>Car + PT</string>
+				<string>Other Modes</string>
+				<string>Other Combinations</string>
+			</array>
+			<key>prompt</key>
+			<string>How did you get here?</string>
+		</dict>
+		<dict>
+			<key>choices</key>
+			<array>
+				<string>Education</string>
+				<string>Health</string>
+				<string>Leisure</string>
+				<string>Meal/Snack/Coffee</string>
+				<string>Pick-up/Drop-off</string>
+				<string>Shopping/Errands</string>
+				<string>Return Home</string>
+				<string>Work</string>
+				<string>Work Meeting</string>
+			</array>
+			<key>prompt</key>
+			<string>Why did you make this trip?</string>
+		</dict>
+	</array>
+	<key>dmapiPrompts_fr</key>
+	<array>
+		<dict>
+			<key>choices</key>
+			<array>
+				<string>À pied</string>
+				<string>Vélo</string>
+				<string>Transport collectif (TC)</string>
+				<string>Voiture</string>
+				<string>Voiture + TC</string>
+				<string>Autre mode unique</string>
+				<string>Autre combinaison</string>
+			</array>
+			<key>prompt</key>
+			<string>Quel moyen de transport avez-vous utilisé pour votre déplacement?</string>
+		</dict>
+		<dict>
+			<key>choices</key>
+			<array>
+				<string>Éducation</string>
+				<string>Santé</string>
+				<string>Loisir</string>
+				<string>Repas / collation / café</string>
+				<string>Reconduire / aller chercher une personne</string>
+				<string>Magasinage / emplettes</string>
+				<string>Retourner à mon domicile</string>
+				<string>Travail</string>
+				<string>Rendez-vous d’affaires</string>
+			</array>
+			<key>prompt</key>
+			<string>Pour quelle raison avez-vous effectué ce déplacement?</string>
+		</dict>
+	</array>
+	<key>dmapiMandatoryQuestions</key>
+	<dict>
+		<key>en</key>
+		<dict>
+			<key>100</key>
+			<dict>
+				<key>colName</key>
+				<string>Gender</string>
+				<key>prompt</key>
+				<string>What is your gender?</string>
+				<key>choices</key>
+				<array>
+					<string>Male</string>
+					<string>Female</string>
+					<string>Other/Neither</string>
+					<string>Does not wish to respond</string>
+				</array>
+			</dict>
+			<key>101</key>
+			<dict>
+				<key>colName</key>
+				<string>Age</string>
+				<key>prompt</key>
+				<string>What is your age bracket?</string>
+				<key>choices</key>
+				<array>
+					<string>16 to 24</string>
+					<string>25 to 34</string>
+					<string>35 to 44</string>
+					<string>45 to 54</string>
+					<string>55 to 64</string>
+					<string>65 to 74</string>
+					<string>75 to 84</string>
+					<string>85 or older</string>
+				</array>
+			</dict>
+			<key>103</key>
+			<dict>
+				<key>colName</key>
+				<string>Email</string>
+				<key>prompt</key>
+				<string>Please enter your email.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>104</key>
+			<dict>
+				<key>colName</key>
+				<string>Occupation</string>
+				<key>prompt</key>
+				<string>You are...</string>
+				<key>choices</key>
+				<array>
+					<string>A full-time worker</string>
+					<string>A part-time worker</string>
+					<string>A student</string>
+					<string>A student and worker</string>
+					<string>Retired</string>
+					<string>At home</string>
+				</array>
+			</dict>
+			<key>105</key>
+			<dict>
+				<key>colName</key>
+				<string>Home Location</string>
+				<key>prompt</key>
+				<string>Please indicate your approximate
+home location.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>106</key>
+			<dict>
+				<key>colName</key>
+				<string>Study Location</string>
+				<key>prompt</key>
+				<string>Please indicate your approximate
+study location.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>107</key>
+			<dict>
+				<key>colName</key>
+				<string>Work Location</string>
+				<key>prompt</key>
+				<string>Please indicate your approximate
+work location.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>108</key>
+			<dict>
+				<key>colName</key>
+				<string>Travel to Study</string>
+				<key>prompt</key>
+				<string>How do you typically commute to
+your studies?</string>
+				<key>choices</key>
+				<array>
+					<string>On foot</string>
+					<string>Bicycle</string>
+					<string>Public Transportation (PT)</string>
+					<string>Car</string>
+					<string>Car + PT</string>
+					<string>Other Modes</string>
+					<string>Other Combinations</string>
+				</array>
+			</dict>
+			<key>109</key>
+			<dict>
+				<key>colName</key>
+				<string>Travel to Study</string>
+				<key>prompt</key>
+				<string>Do you use any alternative mode of
+travel to your studies?</string>
+				<key>choices</key>
+				<array>
+					<string>No</string>
+					<string>On foot</string>
+					<string>Bicycle</string>
+					<string>Public Transportation (PT)</string>
+					<string>Car</string>
+					<string>Car + PT</string>
+					<string>Other Modes</string>
+					<string>Other Combinations</string>
+				</array>
+			</dict>
+			<key>110</key>
+			<dict>
+				<key>colName</key>
+				<string>Travel to Work</string>
+				<key>prompt</key>
+				<string>How do you typically commute to
+your work location?</string>
+				<key>choices</key>
+				<array>
+					<string>On foot</string>
+					<string>Bicycle</string>
+					<string>Public Transportation (PT)</string>
+					<string>Car</string>
+					<string>Car + PT</string>
+					<string>Other Modes</string>
+					<string>Other Combinations</string>
+				</array>
+			</dict>
+			<key>111</key>
+			<dict>
+				<key>colName</key>
+				<string>Travel to Work</string>
+				<key>prompt</key>
+				<string>Do you use any alternative mode of
+travel to work?</string>
+				<key>choices</key>
+				<array>
+					<string>No</string>
+					<string>On foot</string>
+					<string>Bicycle</string>
+					<string>Public Transportation (PT)</string>
+					<string>Car</string>
+					<string>Car + PT</string>
+					<string>Other Modes</string>
+					<string>Other Combinations</string>
+				</array>
+			</dict>
+		</dict>
+		<key>fr</key>
+		<dict>
+			<key>100</key>
+			<dict>
+				<key>colName</key>
+				<string>Genre</string>
+				<key>prompt</key>
+				<string>Veuillez indiquer votre sexe?</string>
+				<key>choices</key>
+				<array>
+					<string>Homme</string>
+					<string>Femme</string>
+					<string>Autre / aucune de ces réponses</string>
+					<string>Je préfère ne pas répondre.</string>
+				</array>
+			</dict>
+			<key>101</key>
+			<dict>
+				<key>colName</key>
+				<string>Tranche d’âge</string>
+				<key>prompt</key>
+				<string>Quel âge avez-vous?</string>
+				<key>choices</key>
+				<array>
+					<string>16 - 24</string>
+					<string>25 - 34</string>
+					<string>35 - 44</string>
+					<string>45 - 54</string>
+					<string>55 - 64</string>
+					<string>65 – 74</string>
+					<string>75 – 84</string>
+					<string>85+</string>
+				</array>
+			</dict>
+			<key>103</key>
+			<dict>
+				<key>colName</key>
+				<string>Courriel</string>
+				<key>prompt</key>
+				<string>SVP saisissez votre courriel.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>104</key>
+			<dict>
+				<key>colName</key>
+				<string>Occupation</string>
+				<key>prompt</key>
+				<string>Vous êtes…</string>
+				<key>choices</key>
+				<array>
+					<string>Travailleur à plein temps</string>
+					<string>Travailleur à temps partiel</string>
+					<string>Étudiant</string>
+					<string>Étudiant et travailleur</string>
+					<string>Retraité</string>
+					<string>À la maison</string>
+				</array>
+			</dict>
+			<key>105</key>
+			<dict>
+				<key>colName</key>
+				<string>Lieu de résidence</string>
+				<key>prompt</key>
+				<string>Veuillez indiquer votre
+lieu de résidence.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>106</key>
+			<dict>
+				<key>colName</key>
+				<string>Lieu d’études</string>
+				<key>prompt</key>
+				<string>Veuillez indiquer votre
+lieu d’études.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>107</key>
+			<dict>
+				<key>colName</key>
+				<string>Lieu de travail</string>
+				<key>prompt</key>
+				<string>Veuillez indiquer votre
+lieu de travail.</string>
+				<key>choices</key>
+				<array/>
+			</dict>
+			<key>108</key>
+			<dict>
+				<key>colName</key>
+				<string>Déplacement vers votre lieu d’études</string>
+				<key>prompt</key>
+				<string>Quel moyen de transport utilisez-vous habituellement pour vous rendre à votre lieu d’études?</string>
+				<key>choices</key>
+				<array>
+					<string>À pied</string>
+					<string>Vélo</string>
+					<string>Transport collectif (TC)</string>
+					<string>Voiture</string>
+					<string>Voiture + TC</string>
+					<string>Autre mode unique</string>
+					<string>Autre combinaison</string>
+				</array>
+			</dict>
+			<key>109</key>
+			<dict>
+				<key>colName</key>
+				<string>Déplacement vers votre lieu d’études</string>
+				<key>prompt</key>
+				<string>Utilisez-vous parfois un autre mode de transport pour vous rendre à votre lieu d’études?</string>
+				<key>choices</key>
+				<array>
+					<string>Non</string>
+					<string>À pied</string>
+					<string>Vélo</string>
+					<string>Transport collectif (TC)</string>
+					<string>Voiture</string>
+					<string>Voiture + TC</string>
+					<string>Autre mode unique</string>
+					<string>Autre combinaison</string>
+				</array>
+			</dict>
+			<key>110</key>
+			<dict>
+				<key>colName</key>
+				<string>Déplacement vers votre lieu de travail</string>
+				<key>prompt</key>
+				<string>Quel moyen de transport utilisez-vous habituellement pour vous rendre au travail?</string>
+				<key>choices</key>
+				<array>
+					<string>À pied</string>
+					<string>Vélo</string>
+					<string>Transport collectif (TC)</string>
+					<string>Voiture</string>
+					<string>Voiture + TC</string>
+					<string>Autre mode unique</string>
+					<string>Autre combinaison</string>
+				</array>
+			</dict>
+			<key>111</key>
+			<dict>
+				<key>colName</key>
+				<string>Déplacement vers votre lieu de travail</string>
+				<key>prompt</key>
+				<string>Utilisez-vous parfois un autre mode de transport pour vous rendre au travail?</string>
+				<key>choices</key>
+				<array>
+					<string>Non</string>
+					<string>À pied</string>
+					<string>Vélo</string>
+					<string>Transport collectif (TC)</string>
+					<string>Voiture</string>
+					<string>Voiture + TC</string>
+					<string>Autre mode unique</string>
+					<string>Autre combinaison</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

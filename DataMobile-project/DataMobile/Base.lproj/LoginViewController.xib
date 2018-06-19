@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
+            <string>AvenirNext-Medium</string>
+        </array>
+        <array key="AvenirNextCondensed.ttc">
+            <string>AvenirNextCondensed-DemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="avatar" destination="Mm5-YG-ya4" id="Izh-ex-Akz"/>
+                <outlet property="btnStart" destination="4vp-et-Ohe" id="26A-ag-s69"/>
+                <outlet property="plate" destination="D2R-st-Mxx" id="3gM-fN-Dd0"/>
+                <outlet property="textField" destination="oqo-u4-rd5" id="B3W-4t-nhz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewAvatar" destination="uhV-jF-x09" id="aNa-8h-CZ3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KbC-eO-jhD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skb-Ar-ulG">
+                            <rect key="frame" x="40" y="132" width="240" height="272"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2R-st-Mxx">
+                                    <rect key="frame" x="-20" y="32" width="280" height="240"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNV-Ud-Uwe">
+                                            <rect key="frame" x="74" y="57.5" width="133.5" height="46.5"/>
+                                            <string key="text">Please input
+the survey name.</string>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="34"/>
+                                            </variation>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Survey Name" textAlignment="center" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="oqo-u4-rd5">
+                                            <rect key="frame" x="20" y="124" width="240" height="40"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="textColor" red="0.20784313730000001" green="0.43921568630000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="done"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="32"/>
+                                            </variation>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vp-et-Ohe">
+                                            <rect key="frame" x="20" y="180" width="240" height="40"/>
+                                            <color key="backgroundColor" red="0.20784313730000001" green="0.43921568630000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="83x-lv-wO3"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="QJJ-2Z-QzP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="20"/>
+                                            <state key="normal" title="SUBMIT">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <state key="disabled">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="touchedCustomSurvey:" destination="-1" eventType="touchUpInside" id="xZs-Qa-PBG"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.88" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="centerX" secondItem="QNV-Ud-Uwe" secondAttribute="centerX" id="55J-CJ-TgO"/>
+                                        <constraint firstAttribute="height" constant="240" id="7Lb-sD-Pqi">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="480"/>
+                                        </constraint>
+                                        <constraint firstItem="oqo-u4-rd5" firstAttribute="height" secondItem="4vp-et-Ohe" secondAttribute="height" id="9Mx-VG-GUf"/>
+                                        <constraint firstAttribute="width" constant="280" id="DBa-jr-6P7">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="560"/>
+                                        </constraint>
+                                        <constraint firstItem="oqo-u4-rd5" firstAttribute="width" secondItem="4vp-et-Ohe" secondAttribute="width" id="E1C-Jc-UAw"/>
+                                        <constraint firstItem="oqo-u4-rd5" firstAttribute="top" secondItem="QNV-Ud-Uwe" secondAttribute="bottom" constant="20" id="Rvl-ty-9nH"/>
+                                        <constraint firstAttribute="centerX" secondItem="oqo-u4-rd5" secondAttribute="centerX" id="WyO-oZ-6ir"/>
+                                        <constraint firstAttribute="centerX" secondItem="4vp-et-Ohe" secondAttribute="centerX" id="dCf-ly-V6V"/>
+                                        <constraint firstItem="4vp-et-Ohe" firstAttribute="top" secondItem="oqo-u4-rd5" secondAttribute="bottom" constant="16" id="tbG-5g-G2t"/>
+                                        <constraint firstAttribute="bottom" secondItem="4vp-et-Ohe" secondAttribute="bottom" constant="20" id="z87-3S-zqS"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhV-jF-x09">
+                                    <rect key="frame" x="84" y="0.0" width="72" height="72"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_avatar_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mm5-YG-ya4">
+                                            <rect key="frame" x="4" y="4" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="lCc-YG-wXf"/>
+                                                <constraint firstAttribute="width" constant="64" id="v0T-yE-uE8"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.88" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="72" id="0Ss-0s-2Tq"/>
+                                        <constraint firstAttribute="width" secondItem="uhV-jF-x09" secondAttribute="height" multiplier="72:72" id="CDl-LJ-2QV"/>
+                                        <constraint firstAttribute="centerX" secondItem="Mm5-YG-ya4" secondAttribute="centerX" id="IIF-gH-pvE"/>
+                                        <constraint firstAttribute="height" constant="72" id="V2K-La-s8I"/>
+                                        <constraint firstAttribute="centerY" secondItem="Mm5-YG-ya4" secondAttribute="centerY" id="wcb-R4-Roh"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="CDl-LJ-2QV"/>
+                                        </mask>
+                                    </variation>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="240" id="V0Y-in-Ce7"/>
+                                <constraint firstAttribute="centerX" secondItem="uhV-jF-x09" secondAttribute="centerX" id="efC-9x-BJE"/>
+                                <constraint firstItem="uhV-jF-x09" firstAttribute="top" secondItem="skb-Ar-ulG" secondAttribute="top" id="ggX-ww-Yu2"/>
+                                <constraint firstAttribute="height" constant="272" id="iSo-g7-uZb"/>
+                                <constraint firstAttribute="bottom" secondItem="D2R-st-Mxx" secondAttribute="bottom" id="nVL-jW-gdC"/>
+                                <constraint firstAttribute="centerX" secondItem="D2R-st-Mxx" secondAttribute="centerX" id="sCO-gN-olL"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="skb-Ar-ulG" secondAttribute="centerX" id="01p-gG-Jad"/>
+                        <constraint firstAttribute="centerY" secondItem="skb-Ar-ulG" secondAttribute="centerY" multiplier="1.06:1" id="aU0-Va-rel"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="KbC-eO-jhD" secondAttribute="trailing" id="BH7-eH-bBV"/>
+                <constraint firstItem="KbC-eO-jhD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Jyj-4g-jTh"/>
+                <constraint firstItem="KbC-eO-jhD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RaK-54-dRt"/>
+                <constraint firstAttribute="bottom" secondItem="KbC-eO-jhD" secondAttribute="bottom" id="aNc-Jr-WXF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_avatar_default.png" width="192" height="192"/>
+    </resources>
+</document>
