@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>insertLocationUrl</key>
-	<string>http://0.0.0.0/insertGps</string>
+	<string>http://api.server.com/insertGps</string>
 	<key>connexionTimeoutSeconds</key>
 	<integer>10</integer>
 	<key>dmapiURLCreate</key>
-	<string>https://itinerum.api.host/create</string>
+	<string>https://api.server.com/mobile/v1/create</string>
 	<key>dmapiURLUpdate</key>
-	<string>https://itinerum.api.host/update</string>
+	<string>https://api.server.com/mobile/v1/update</string>
 	<key>dmapiSurveyFieldsByID</key>
 	<dict>
 		<key>1</key>

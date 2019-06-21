@@ -228,7 +228,7 @@ static const int MIN_HORIZONTAL_ACCURACY_DISPLAY = 100;
         if (![[dictSurveies objectForKey:@"avatar"] isEqual:[NSNull null]]&&![[dictSurveies objectForKey:@"avatar"] isEqualToString:@""])
         {
             strUrl = [dictSurveies objectForKey:@"avatar"];
-            strUrl = [@"https://itinerum.api.host/dashboard" stringByAppendingString:strUrl];
+            strUrl = [@"https://dashboard.server.com" stringByAppendingString:strUrl];
             NSURL *url = [NSURL URLWithString:strUrl];
             NSData *data = [NSData dataWithContentsOfURL:url];
             // if data exists, use custom avatar on the server

@@ -74,7 +74,7 @@
     if (![[dictSurveies objectForKey:@"avatar"] isEqual:[NSNull null]]&&![[dictSurveies objectForKey:@"avatar"] isEqualToString:@""])
     {
         strUrl = [dictSurveies objectForKey:@"avatar"];
-        strUrl = [@"https://itinerum.api.host" stringByAppendingString:strUrl];
+        strUrl = [@"https://api.testing.server.com" stringByAppendingString:strUrl];
         NSURL *url = [NSURL URLWithString:strUrl];
         NSData *data = [NSData dataWithContentsOfURL:url];
         // if data exists, use custom avatar on the server
